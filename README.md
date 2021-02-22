@@ -1,2 +1,8 @@
-# windows8online.github.io
-Originally from this web site onlinewindows8.altervista.org
+# Welcome!
+*Note: Before continiuing to read this, read the description first.*
+
+This is a repository containing an archive of the code for Online Windows 8, a web version of a preview of the so-called "Metro" Windows 8 made by a team.
+
+
+# About
+*sigh* **I guess I already explained what this is.**
