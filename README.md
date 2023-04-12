@@ -8,4 +8,6 @@ This is a repository containing an archive of the code for Online Windows 8, a w
 **I guess I already explained what this is.**
 
 # Contact
-No contacting right now.
+Ill not share my contact.
+      
+        *Deal with it.*
