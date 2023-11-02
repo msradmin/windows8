@@ -127,8 +127,8 @@
 		<img src="images/user.png" id="userimage"/>
 	</div>
 	<ul id="userdropdown">
-		<a href="../lockscreen/index.html"><li>Log out</li></a>
-		<li>Shut Down</li>
+		<a href="../lockscreen/index.html"><li>Sair</li></a>
+		<li>Desligar</li>
 	</ul>
 	<div id="tiles"  onclick="document.getElementById('userdropdown').style.display='none';settingscharms.style.display='none';sharecharms.style.display='none';">
 		<div class="block">
@@ -138,7 +138,7 @@
 			<div class="line">
 				<div class="tile">
 					<img src="images/mail.png" height="125" width="258"/>
-					<p>Mail</p>
+					<p>Email</p>
 				</div>
 				<div class="tile">
 					<a href="../apps/calendar/index.html">
@@ -226,9 +226,9 @@
 				</div>
 				<div class="tile">
 					<a href="https://msradmin.github.io/windows7">
-						<img src="images/instazine.png" height="125" width="125"/>
+						<img src="images/instazine.png" height="160" width="140"/>
 					</a>
-					<p class="white">Windows 7 Test Drive</p>
+					<p class="white">Windows 7</p>
 				</div>
 				<div class="tile">
 					<img src="images/messaging.png" height="125" width="258"/>
@@ -358,7 +358,7 @@
 					<p></p>
 				</div>		
 				<div class="tile">
-					<a href="https://sandstormdev.indie.af">
+					<a href="../iframeapps/angrybirds.html">
 						<img src="images/angrybirds.png" height="125" width="258"/>
 					</a>
 				</div>						
@@ -475,9 +475,9 @@
 	</div>
 	<div id="settingscharms" class="charms">
 		<a href="#" onclick="settingscharms.style.display='none';" class="closesettings"/></a>
-		<div class="ch1">Settings</div>
-		<div class="ch2d">Start</div>
-		<div class="ch2">Background</div>
+		<div class="ch1">Configurações</div>
+		<div class="ch2d">Iniciar</div>
+		<div class="ch2">Plano de fundo</div>
 		<img src="images/charmsbar/settings/redflowers.png" onclick="changebg('images/backgrounds/redplants.png')"/>
 		<img src="images/charmsbar/settings/paradoxalred.png" onclick="changebg('images/backgrounds/paradoxalred.png')"/>
 		<img src="images/charmsbar/settings/fishypink.png" onclick="changebg('images/backgrounds/fishypink.png')"/>
@@ -520,24 +520,24 @@
 		<img src="images/charmsbar/settings/greybird.png" onclick="changebg('images/backgrounds/greybird.png')"/>
 		<img src="images/charmsbar/settings/circlerevisited.png" onclick="resetbg('images/backgrounds/circlerevisited.png')"/>
 		<img src="images/backgrounds/plaindarkgrey.png" onclick="changebg('images/backgrounds/plaindarkgrey.png')"/>
-		<span class="ch2">Username</span><br/>
-		First Name :<input type="text" id="firstnameinput" value="Anonymous"/><br/>
-		Last name :<input type="text" id="nameinput" value="User"/><br/>
+		<span class="ch2">Nome de usuário</span><br/>
+		Nome :<input type="text" id="firstnameinput" value="Anonymous"/><br/>
+		Sobrenome :<input type="text" id="nameinput" value="User"/><br/>
 
 	</div>
 	<div id="sharecharms" class="charms">
 		<a href="#" onclick="sharecharms.style.display='none';" class="closesettings"/></a>
-		<span class="ch1">Share</span><br/>
-		<span class="sharing">You are sharing : Online Windows 8</span><br/>
-		<span>Send</span><br/>
-		<span>Recommend</span><br/>
+		<span class="ch1">Compartilhar</span><br/>
+		<span class="sharing">Você está a compartilhar : Online Windows 8</span><br/>
+		<span>Enviar</span><br/>
+		<span>Recomendado</span><br/>
 		<div class="g-plusone" data-href="http://onlinewindows8.koding.com"></div>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://onlinewindows8.koding.com" data-text="Online Windows 8" data-via="ntim007">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 	<div id="searchcharms" class="charms">
 	<a href="#" onclick="searchcharms.style.display='none';" class="closesettings"/></a>
-		<div class="ch1">Search</div>
+		<div class="ch1">Pesquisar</div>
 		<form>
 			<input type="text" id="searchinput" placeholder="Search"/>
 			<input type="reset" id="searchreset"/>
